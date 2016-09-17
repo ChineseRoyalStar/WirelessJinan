@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProgrammeDetailListCell" customModule="WirelessJinan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="381"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="296" height="381"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hih-3d-KdH">
+                        <rect key="frame" x="0.0" y="0.0" width="296" height="381"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hih-3d-KdH" secondAttribute="bottom" id="Bz4-Tj-2V9"/>
+                <constraint firstAttribute="trailing" secondItem="hih-3d-KdH" secondAttribute="trailing" id="Dbd-9h-E7b"/>
+                <constraint firstItem="hih-3d-KdH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HLF-vG-BQp"/>
+                <constraint firstItem="hih-3d-KdH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xg9-lK-ssR"/>
+            </constraints>
+            <size key="customSize" width="296" height="381"/>
+            <connections>
+                <outlet property="tableView" destination="hih-3d-KdH" id="haH-uj-RmG"/>
+            </connections>
+            <point key="canvasLocation" x="294" y="246.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

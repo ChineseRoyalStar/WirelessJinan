@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="ProgrammeCell" customModule="WirelessJinan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jUk-ww-oBn">
+                        <rect key="frame" x="20" y="10" width="70" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="d6G-FG-zeh"/>
+                            <constraint firstAttribute="height" constant="60" id="z4c-Eq-lhH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s44-QA-cc4">
+                        <rect key="frame" x="98" y="10" width="214" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="EZs-dY-8t8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2as-RT-xBw">
+                        <rect key="frame" x="98" y="53" width="33" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="39W-ce-iMY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xz2-9j-aR3">
+                        <rect key="frame" x="136" y="53" width="0.0" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Rg6-t5-hQx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Uo-so-V68">
+                        <rect key="frame" x="245" y="10" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="IZc-s0-4kr"/>
+                            <constraint firstAttribute="width" constant="60" id="crL-gx-T3l"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="2as-RT-xBw" secondAttribute="bottom" constant="8" id="5LM-Xs-4uf"/>
+                    <constraint firstItem="Xz2-9j-aR3" firstAttribute="baseline" secondItem="jUk-ww-oBn" secondAttribute="baseline" id="5ON-cH-VtO"/>
+                    <constraint firstItem="8Uo-so-V68" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="DNd-OQ-PG6"/>
+                    <constraint firstItem="s44-QA-cc4" firstAttribute="leading" secondItem="jUk-ww-oBn" secondAttribute="trailing" constant="8" id="Lyl-hI-4Ij"/>
+                    <constraint firstAttribute="bottom" secondItem="Xz2-9j-aR3" secondAttribute="bottom" constant="8" id="RkE-vQ-He9"/>
+                    <constraint firstItem="jUk-ww-oBn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Rxz-v1-Ac6"/>
+                    <constraint firstAttribute="trailing" secondItem="8Uo-so-V68" secondAttribute="trailing" constant="15" id="UIz-55-wp6"/>
+                    <constraint firstItem="Xz2-9j-aR3" firstAttribute="leading" secondItem="2as-RT-xBw" secondAttribute="trailing" constant="5" id="YHA-KX-gqD"/>
+                    <constraint firstItem="jUk-ww-oBn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fv2-Qf-xXV"/>
+                    <constraint firstItem="s44-QA-cc4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="jQz-fD-ztp"/>
+                    <constraint firstItem="2as-RT-xBw" firstAttribute="baseline" secondItem="jUk-ww-oBn" secondAttribute="baseline" id="sTh-Ct-434"/>
+                    <constraint firstItem="2as-RT-xBw" firstAttribute="leading" secondItem="jUk-ww-oBn" secondAttribute="trailing" constant="8" id="vfp-Sp-5rb"/>
+                    <constraint firstAttribute="trailing" secondItem="s44-QA-cc4" secondAttribute="trailing" constant="8" id="xCb-ka-Wy4"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="5LM-Xs-4uf"/>
+                        <exclude reference="RkE-vQ-He9"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="channelLabel" destination="s44-QA-cc4" id="Ok6-Jr-qZ2"/>
+                <outlet property="iconImage" destination="jUk-ww-oBn" id="mzU-fn-5QH"/>
+                <outlet property="playIcon" destination="8Uo-so-V68" id="GkV-3y-Xia"/>
+                <outlet property="programmeNameLabel" destination="Xz2-9j-aR3" id="Juv-c3-B1u"/>
+                <outlet property="timeLabel" destination="2as-RT-xBw" id="sLX-Zi-TlQ"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="277.5"/>
+        </tableViewCell>
+    </objects>
+</document>
